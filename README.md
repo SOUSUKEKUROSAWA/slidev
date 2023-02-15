@@ -1,11 +1,18 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# How to start [Slidev](https://github.com/slidevjs/slidev)
 
-To start the slide show:
-
-- `npm install`
 - `npm run dev`
-- visit http://localhost:3030
+- `./pages` 内にスライド用マークダウンを作成
+- [slides.md](./slides.md) に下記の方法でインポートする
 
-Edit the [slides.md](./slides.md) to see the changes.
+```
+---
+src: ./pages/[インポートするファイル名].md
+---
+```
+
+- `git add .`
+- `git commit -m "~"`
+- `git push origin main`
+- https://SOUSUKEKUROSAWA.github.io/slidev
 
 Learn more about Slidev on [documentations](https://sli.dev/).
