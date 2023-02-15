@@ -18,6 +18,7 @@ src: ./pages/[インポートするファイル名].md
 - `git add .`
 - `git commit -m "~"`
 - `git push origin main`
+- https://app.netlify.com/teams/sousukekurosawa/sites
 
 ## other
 Learn more about Slidev on [documentations](https://sli.dev/).
