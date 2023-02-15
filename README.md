@@ -1,4 +1,4 @@
-# How to start [Slidev](https://github.com/slidevjs/slidev)
+# How to use [Slidev](https://github.com/slidevjs/slidev)
 
 - `npm run dev`
 - `./pages` 内にスライド用マークダウンを作成
@@ -10,9 +10,10 @@ src: ./pages/[インポートするファイル名].md
 ---
 ```
 
+- `npm run build -- --out docs`
 - `git add .`
 - `git commit -m "~"`
 - `git push origin main`
-- https://SOUSUKEKUROSAWA.github.io/slidev
+- https://sousukekurosawa.github.io/slidev
 
 Learn more about Slidev on [documentations](https://sli.dev/).
