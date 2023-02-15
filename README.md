@@ -10,7 +10,7 @@ src: ./pages/[インポートするファイル名].md
 ---
 ```
 
-- `npm run build -- --out docs`
+- `npm run build -- slides.md --out docs`
 - `git add .`
 - `git commit -m "~"`
 - `git push origin main`
